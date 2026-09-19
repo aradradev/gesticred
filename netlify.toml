@@ -1,0 +1,14 @@
+[[redirects]]
+  from = "/conditions"
+  to = "/conditions.html"
+  status = 200
+
+[[redirects]]
+  from = "/confidentialite"
+  to = "/confidentialite.html"
+  status = 200
+
+[[redirects]]
+  from = "/app"
+  to = "https://script.google.com/macros/s/AKfycbxhsPE6fJwOSTSNTmUucdqxIV3LrZ25KkMJTvf3AbWw79Gis3nGMbTJSrgAmh9lDITe/exec"
+  status = 302
