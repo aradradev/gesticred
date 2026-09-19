@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Politique de confidentialité — GestiCred</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%231a3d7c'/><text x='50' y='68' font-size='52' font-family='system-ui' font-weight='700' fill='white' text-anchor='middle'>GC</text></svg>">
+</head>
+<body class="legal-body">
+  <div class="bg">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+  </div>
+
+  <div class="legal-container">
+    <header class="header">
+      <a href="index.html" class="brand brand-link">
+        <div class="brand-mark">GC</div>
+        <div class="brand-name">GestiCred</div>
+      </a>
+      <a href="index.html" class="nav-back">← Retour à l'accueil</a>
+    </header>
+
+    <main class="legal-content">
+      <div class="legal-badge">Document légal</div>
+      <h1 class="legal-title">Politique de confidentialité</h1>
+      <p class="legal-updated">Dernière mise à jour : <span id="date"></span></p>
+
+      <section>
+        <h2>1. Engagement</h2>
+        <p>GestiCred s'engage à protéger la confidentialité de vos données. Cette politique explique quelles données sont collectées, comment elles sont utilisées et quels sont vos droits.</p>
+      </section>
+
+      <section>
+        <h2>2. Données collectées</h2>
+        <p>GestiCred collecte uniquement les données que vous saisissez :</p>
+        <ul>
+          <li><strong>Compte :</strong> nom d'utilisateur, email, nom complet, rôle.</li>
+          <li><strong>Contacts :</strong> nom, téléphone, type (client / fournisseur), notes.</li>
+          <li><strong>Crédits :</strong> montants, dates, descriptions, échéances.</li>
+          <li><strong>Paiements :</strong> montants, dates, mode de paiement, références.</li>
+        </ul>
+
+        <div class="callout callout-success">
+          <strong>🔒 Aucune donnée bancaire</strong>
+          <p>Nous ne collectons <strong>jamais</strong> de numéros de carte bancaire, coordonnées bancaires, codes PIN, ni aucune information financière sensible. GestiCred ne traite aucun paiement réel.</p>
+        </div>
+      </section>
+
+      <section>
+        <h2>3. Utilisation des données</h2>
+        <p>Vos données sont utilisées uniquement pour :</p>
+        <ul>
+          <li>Vous permettre de suivre vos crédits et paiements,</li>
+          <li>Générer des rapports comptables,</li>
+          <li>Assurer la sécurité et la traçabilité de votre compte.</li>
+        </ul>
+        <p><strong>Aucune donnée n'est vendue, louée ou partagée avec des tiers</strong> à des fins commerciales.</p>
+      </section>
+
+      <section>
+        <h2>4. Stockage et sécurité</h2>
+        <p>Vos données sont stockées de manière sécurisée sur l'infrastructure Google (Google Sheets, Google Drive) avec :</p>
+        <ul>
+          <li>Mots de passe hachés (SHA-256 + sel), jamais en clair,</li>
+          <li>Sessions authentifiées avec jetons signés,</li>
+          <li>Isolation stricte des données par client,</li>
+          <li>Validation systématique des autorisations.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>5. Conservation des données</h2>
+        <p>Vos données sont conservées tant que votre compte est actif. En cas de suppression, vous pouvez demander leur effacement complet en nous contactant.</p>
+      </section>
+
+      <section>
+        <h2>6. Vos droits</h2>
+        <ul>
+          <li><strong>Accès :</strong> consultez toutes vos données à tout moment,</li>
+          <li><strong>Rectification :</strong> modifiez vos informations,</li>
+          <li><strong>Suppression :</strong> demandez l'effacement de vos données,</li>
+          <li><strong>Export :</strong> générez un PDF de vos rapports.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>7. Cookies et stockage local</h2>
+        <p>GestiCred utilise uniquement un stockage local technique (<code>localStorage</code> / <code>sessionStorage</code>) pour :</p>
+        <ul>
+          <li>Maintenir votre session,</li>
+          <li>Mettre en cache les données pour accélérer la navigation.</li>
+        </ul>
+        <p>Aucun cookie publicitaire ou de suivi tiers n'est utilisé.</p>
+      </section>
+
+      <section>
+        <h2>8. Contact</h2>
+        <p>Pour toute question, contactez-nous via WhatsApp depuis la page d'accueil.</p>
+      </section>
+
+      <div class="legal-footer">
+        <a href="index.html" class="btn btn-outline">← Retour à l'accueil</a>
+      </div>
+    </main>
+  </div>
+
+  <script>document.getElementById('date').textContent = new Date().toLocaleDateString('fr-FR', { day: 'numeric', month: 'long', year: 'numeric' });</script>
+</body>
+</html>
